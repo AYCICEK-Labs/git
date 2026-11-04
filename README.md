@@ -7,6 +7,7 @@ The Git standards of AYÇİÇEK Labs: line endings, binary files and ignored fil
 | `.gitattributes`           | The standard itself: LF everywhere, CRLF only for Windows scripts, binary files, generated files collapsed. |
 | `gitignore/Base.gitignore` | Every repository: OS and editor files, environment files and keys, Claude Code's personal settings, logs.   |
 | `gitignore/Node.gitignore` | Node projects: `node_modules`, build output, coverage.                                                      |
+| `gitignore/Rust.gitignore` | Rust projects: the `target` build folder.                                                                   |
 
 A project's `.gitignore` is `Base` followed by the templates of its stacks.
 
